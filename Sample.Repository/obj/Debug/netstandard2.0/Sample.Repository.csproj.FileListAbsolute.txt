@@ -1,0 +1,12 @@
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.csprojAssemblyReference.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.csproj.CoreCompileInputs.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.AssemblyInfoInputs.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.AssemblyInfo.cs
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/bin/Debug/netstandard2.0/Sample.Repository.deps.json
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/bin/Debug/netstandard2.0/Sample.Repository.dll
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/bin/Debug/netstandard2.0/Sample.Repository.pdb
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/bin/Debug/netstandard2.0/Sample.Entity.dll
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/bin/Debug/netstandard2.0/Sample.Entity.pdb
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.csproj.CopyComplete
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.dll
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Repository/obj/Debug/netstandard2.0/Sample.Repository.pdb

@@ -1,0 +1,9 @@
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/bin/Debug/netstandard2.0/Sample.Entity.deps.json
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/bin/Debug/netstandard2.0/Sample.Entity.dll
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/bin/Debug/netstandard2.0/Sample.Entity.pdb
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.csprojAssemblyReference.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.csproj.CoreCompileInputs.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.AssemblyInfoInputs.cache
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.AssemblyInfo.cs
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.dll
+/Users/marcoschoma/Workspace/dev/MBCTech/SampleAPI/Sample.Entity/obj/Debug/netstandard2.0/Sample.Entity.pdb
