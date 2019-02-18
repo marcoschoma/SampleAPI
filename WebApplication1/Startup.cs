@@ -5,6 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using IdentityServer4.Models;
+using IdentityServer4.Services;
+using Microsoft.Extensions.Logging;
+using System;
+
 namespace WebApplication1
 {
     public class Startup
@@ -12,13 +16,24 @@ namespace WebApplication1
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            _loggerFactory = new LoggerFactory();
         }
 
         public IConfiguration Configuration { get; }
+        private LoggerFactory _loggerFactory { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddCors();
+            var cors = new DefaultCorsPolicyService(_loggerFactory.CreateLogger<DefaultCorsPolicyService>())
+            {
+                AllowedOrigins = { "*" }
+            };
+            cors.AllowAll = true;
+            services.AddSingleton<ICorsPolicyService>(cors);
+            services.AddCors();
+
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
@@ -39,7 +54,7 @@ namespace WebApplication1
             {
                 app.UseHsts();
             }
-
+            app.UseCors(builder => builder.WithOrigins("*").AllowAnyHeader());
             app.UseIdentityServer();
             app.UseHttpsRedirection();
             app.UseAuthentication();
